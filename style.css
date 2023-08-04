@@ -1,0 +1,93 @@
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+
+  --dark-gray: hsl(0, 0%, 59%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--dark-cyan);
+  display: flex;
+  justify-content: center;
+  font-family: monospace;
+  margin-top: 200px;
+}
+
+.c-card {
+  width: 400px;
+  height: 400px;
+  color: #fff;
+  box-shadow: 0 0 20px rgba(93, 93, 93, 0.8);
+  text-align: center;
+  border-radius: 20px;
+}
+
+.c-card > h2 {
+    margin-top: 10px;
+}
+
+.c-card > h2 > span {
+  color: var(--dark-grayish-blue);
+  font-weight: 700;
+  font-family: "Kumbh Sans";
+}
+
+.c-card img {
+  border-radius: 100px;
+  margin-top: 20px;
+}
+
+.c-card h2 {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.c-card p {
+  width: 20rem;
+  text-align: left;
+  padding: 0.5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-numbers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid var(--dark-grayish-blue);
+}
+
+.container-numbers > p {
+  text-align: center;
+  font-family: "Kumbh Sana", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.container-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.container-text > p {
+  text-align: center;
+  font-family: "Kumbh Sana", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+}
